@@ -1,0 +1,92 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-03-22T12:19:40.552Z",
+        "line": 21,
+        "name": "Free CRM Test Scenario",
+        "description": "",
+        "id": "freee-crm-page;free-crm-test-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 24465550400,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user on login page",
+            "match": {
+              "location": "stepDefinition.LoginStepDefinition.user_already_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 69768500,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "The title of the page pageTitle",
+            "match": {
+              "location": "stepDefinition.LoginStepDefinition.getTitle(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "userName",
+                  "Password"
+                ]
+              },
+              {
+                "cells": [
+                  "#1 Free CRM Software for every business",
+                  "Test 2"
+                ]
+              },
+              {
+                "cells": [
+                  "Final Test23",
+                  "Test 44"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 998000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "user enters user name and password",
+            "match": {
+              "location": "stepDefinition.LoginStepDefinition.user_enters_user_name_And_password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1998000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "user is on home page",
+            "match": {
+              "location": "stepDefinition.LoginStepDefinition.user_is_on_home_page()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Freee CRM Page",
+    "description": "",
+    "id": "freee-crm-page",
+    "keyword": "Feature",
+    "uri": "file:src/main/java/cucumberPractice/FinalTest.feature",
+    "tags": []
+  }
+]

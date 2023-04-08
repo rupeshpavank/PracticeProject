@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="MyTestSuite">
+	<test name="PracticeTest">
+		
+		<parameter name="url" value="http://www.google.com"></parameter>
+		
+		<classes>
+			<class name="com.TestProject.Practice.MicronSemiConductor"/>
+		</classes>
+		
+	</test>
+</suite>
